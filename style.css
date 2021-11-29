@@ -149,3 +149,24 @@ a{
     color: rgb(0, 0, 0);
     font-size: 13px ;
 }
+
+@media screen and (min-width: 600px){
+    a{
+        font-size: 23px ;
+    }
+    .nav-deslizante{
+        width: 35vw;
+    }
+
+    .menu-deslizante{
+        width: 35vw;
+    }
+
+    .post-it{
+        margin-top: 18px;
+        width: 22vw;
+        
+           
+    }
+
+}
