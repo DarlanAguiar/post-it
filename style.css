@@ -40,6 +40,8 @@ body{
 textarea{
     background-image: linear-gradient(#D7D8C9, #A4A68A );
     padding: 4px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .botoes-deslizante{
@@ -53,7 +55,7 @@ textarea{
 }
 
 .botao-salvar{
-    background-image: radial-gradient(#F2BE24, #57523E);
+    background-image: radial-gradient(rgb(60, 255, 0), #57523E);
     color: white;
     font-weight: bolder;
     text-shadow: 1px 1px black;
@@ -64,8 +66,6 @@ textarea{
     font-weight: bolder;
     text-shadow: 1px 1px black;
 }
-
-
 
 
 .container-cards{
@@ -88,7 +88,7 @@ textarea{
     border: 2px solid #57523E;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
-    text-shadow: 0 0 1px white;
+    
 }
 
 .botao-post-it{
